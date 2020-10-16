@@ -10,13 +10,13 @@ import {
 import './App.css';
 import Home from './component/Home/Home/Home';
 
+
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
           <Home></Home>
-
         </Route>
       </Switch>
     </Router>
