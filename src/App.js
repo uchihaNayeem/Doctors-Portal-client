@@ -8,6 +8,7 @@ import {
 
 
 import './App.css';
+import Appointment from './component/Appointment/Appointment';
 import Home from './component/Home/Home/Home';
 
 
@@ -17,6 +18,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home></Home>
+        </Route>
+        <Route path="/appointment">
+          <Appointment></Appointment>
         </Route>
       </Switch>
     </Router>
